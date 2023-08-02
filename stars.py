@@ -4,9 +4,9 @@ import cairo
 import imageio
 import numpy as np
 
-WIDTH, HEIGHT = 256, 256
-NUM_FRAMES = 100
-SPARKLE_FACTOR = 5  # Increase this value for more sparkly effect
+WIDTH, HEIGHT = 512, 512
+NUM_FRAMES = 1000
+SPARKLE_FACTOR = 1  # Increase this value for more sparkly effect
 
 def draw_frame(surface, frame_num):
     ctx = cairo.Context(surface)
